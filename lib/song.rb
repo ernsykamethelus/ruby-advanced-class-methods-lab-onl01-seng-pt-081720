@@ -9,5 +9,12 @@ class Song
   def save
     self.class.all << self
   end
+  
+  def self.create(song)
+    song = self.new
+    pe.name = name
+    @@all << person
+  end
+
 
 end
