@@ -38,7 +38,7 @@ class Song
   end
   
   def self.alphabetical
-    @@all.sort_byb |n|
+    @@all.sort_by |n|
     n.name = name
   end
   
